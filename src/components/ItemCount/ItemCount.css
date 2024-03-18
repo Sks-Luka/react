@@ -1,0 +1,26 @@
+.contain{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+.botonContador{
+    display: inline-block;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #536976, #BBD2C5); 
+    color:white;
+    transition:  0.3s;
+}
+.botonText{
+    background: linear-gradient(to right, #536976, #BBD2C5);
+    padding: 5px 10px; 
+    border: none;
+    border-radius: 5px;
+    color:white;
+    margin-top: 5px;
+}
+
+.text{
+    padding-left: 2.3rem;
+}

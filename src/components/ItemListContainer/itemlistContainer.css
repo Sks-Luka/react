@@ -1,0 +1,11 @@
+.texPrinci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: 'Rubik Mono One', monospace;
+}
+.hr{
+    height: 10px;
+}

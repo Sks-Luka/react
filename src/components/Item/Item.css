@@ -1,0 +1,15 @@
+.CardItem{
+    background-color:white;
+    border :10px solid black;
+}
+Img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    justify-self: center;
+}
+.Contador{
+    padding-top: 10px;
+    
+}
+
