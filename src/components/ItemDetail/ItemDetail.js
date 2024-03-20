@@ -15,7 +15,7 @@ const ItemDetail =({id, name, Image, price, stock, category}) =>{
         setQuantityAdded(quantity)
 
     const produtcs ={
-        id,name, price
+    id, name, price, Image
     }
     addItem (produtcs, quantity) 
 }
@@ -45,7 +45,7 @@ return(
                 quantityAdded > 0 ?( 
                     <Link to="/cart" className="botonText"> Terminar Compra </Link>
                 ) : (
-                    <ItemCount   initial={1} stock={stock} onAdd={handleOnAdd}/>
+                    <ItemCount   initial={0} stock={stock} onAdd={handleOnAdd}/>
                 )
             }   
             </footer>

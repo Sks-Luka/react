@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 
 
 const CartWidget = () => {
-    const {totalQuantity}= useContext(CartContext)
+    const {totalQuantity} = useContext(CartContext)
     return(
         <div className="carro">
             <div>
             <SlBasket />
             </div>
-            <Link to="/cart" className="CartWidget" style={{display: totalQuantity > 0  ? "block" : "none"}}>
-            {totalQuantity}
+            <Link to="/cart" className="CartWidget">
+            {totalQuantity()}
             </Link>
         </div>
     )

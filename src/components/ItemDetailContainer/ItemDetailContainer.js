@@ -28,7 +28,7 @@ const ItemDetailContainer = ()=>{
         .finally(() => {
             setLoading(false)
         })
-}, [ItemId])
+}, [])
 
 return(
     <div className="ItemDetailContainer">
